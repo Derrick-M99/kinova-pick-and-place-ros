@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(kinova_pick_and_place)
+
+find_package(catkin REQUIRED COMPONENTS
+  rospy
+  moveit_commander
+)
+
+catkin_package()
+
+install(PROGRAMS
+  scripts/pick_and_place.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
