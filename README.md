@@ -48,7 +48,7 @@ git clone https://github.com/Kinovarobotics/ros_kortex.git
 **4. Add This Project:**
 Clone this repository into your workspace.
 ```bash
-git clone 
+git clone https://github.com/Derrick-M99/kinova-pick-and-place-ros.git
 ```
 
 **5. Install Dependencies and Build:**
